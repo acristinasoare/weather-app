@@ -2,5 +2,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #eceef1;
+  background-color: #ded9d4;
+}
+
+.weather-app {
+  margin: 0 20px;
 }
