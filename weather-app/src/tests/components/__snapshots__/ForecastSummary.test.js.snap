@@ -9,13 +9,16 @@ exports[`ForecastSummary renders 1`] = `
     <div
       class="forecast-summary__date"
     >
-       1111111
+       Thu Jan 01 1970
     </div>
     <div
       class="forecast-summary__icon"
       data-testid="forecast-icon"
     >
-      stubIcon
+      <img
+        alt="icon"
+        src="https://openweathermap.org/img/wn/01d@2x.png"
+      />
     </div>
     <div
       class="forecast-summary__temperature"
