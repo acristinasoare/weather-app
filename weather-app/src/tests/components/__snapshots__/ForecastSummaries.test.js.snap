@@ -20,6 +20,7 @@ exports[`Forecast Summaries renders correctly 1`] = `
       >
         <img
           alt="icon"
+          src="https://openweathermap.org/img/wn/01d@2x.png"
         />
       </div>
       <div
@@ -32,6 +33,11 @@ exports[`Forecast Summaries renders correctly 1`] = `
       >
         Stub description 1
       </div>
+      <button
+        type="button"
+      >
+        More details
+      </button>
     </div>
     <div
       class="forecast-summary"
@@ -48,6 +54,7 @@ exports[`Forecast Summaries renders correctly 1`] = `
       >
         <img
           alt="icon"
+          src="https://openweathermap.org/img/wn/01d@2x.png"
         />
       </div>
       <div
@@ -60,6 +67,11 @@ exports[`Forecast Summaries renders correctly 1`] = `
       >
         Stub description 2
       </div>
+      <button
+        type="button"
+      >
+        More details
+      </button>
     </div>
   </div>
 </DocumentFragment>
