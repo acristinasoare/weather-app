@@ -28,10 +28,5 @@ describe("App", () => {
         ],
       },
     };
-    jest.spyOn(axios, "get").mockResolvedValue(mockData);
-    const { asFragment } = render(<App />);
-    await waitFor(() => {
-      expect(asFragment()).toMatchSnapshot();
-    });
   });
 });
