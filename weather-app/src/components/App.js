@@ -32,7 +32,13 @@ function App() {
   );
 
   useEffect(() => {
-    getForecast(setSelectedDate, setForecasts, setLocation, setErrorMessage);
+    getForecast(
+      "",
+      setSelectedDate,
+      setForecasts,
+      setLocation,
+      setErrorMessage
+    );
   }, []);
 
   return (
